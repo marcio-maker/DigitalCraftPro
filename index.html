@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="DigitalCraft Pro - Soluções digitais completas para transformar sua presença online com qualidade, estratégia e tecnologia de ponta.">
+    <meta name="keywords" content="desenvolvimento web, sites responsivos, marketing digital, UX/UI, e-commerce, landing pages">
+    <title>DigitalCraft Pro | Soluções Digitais Profissionais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Three.js Canvas Background -->
+    <canvas id="background-canvas"></canvas>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">Digital<span>Craft</span>Pro</a>
+                <button class="menu-btn" id="menu-btn">☰</button>
+                <nav id="main-nav">
+                    <button class="close-menu" id="close-menu">✕</button>
+                    <ul>
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#services">Serviços</a></li>
+                        <li><a href="#portfolio">Portfólio</a></li>
+                        <li><a href="#skills">Habilidades</a></li>
+                        <li><a href="#contact">Contato</a></li>
+                    </ul>
+                </nav>
+                <a href="#contact" class="cta-btn">Solicite um Orçamento</a>
+            </div>
+        </div>
+    </header>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Transforme sua <span>Presença Digital</span> com Soluções Profissionais</h1>
+                <p>Desenvolvemos estratégias digitais completas com design moderno, tecnologia de ponta e foco em resultados para fazer seu negócio se destacar no ambiente online.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="cta-btn">Conheça Nossos Serviços</a>
+                    <a href="#portfolio" class="btn-secondary">Ver Projetos</a>
+                </div>
+            </div>
+            <img src="/api/placeholder/650/650" alt="Representação de Serviços Digitais" class="hero-image">
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossos Serviços</h2>
+                <p>Oferecemos soluções digitais completas para transformar sua presença online com qualidade, estratégia e tecnologia de ponta.</p>
+            </div>
+            <div class="services-grid">
+                <!-- Service cards would go here -->
+                <!-- Copied from original code -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nosso Portfólio</h2>
+                <p>Conheça alguns de nossos projetos recentes e descubra como transformamos ideias em soluções digitais de sucesso.</p>
+            </div>
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">Todos</button>
+                <button class="filter-btn" data-filter="websites">Sites</button>
+                <button class="filter-btn" data-filter="ecommerce">E-commerce</button>
+                <button class="filter-btn" data-filter="landing">Landing Pages</button>
+                <button class="filter-btn" data-filter="apps">Aplicativos</button>
+            </div>
+            <div class="portfolio-grid">
+                <!-- Portfolio items would go here -->
+                <!-- Copied from original code -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2>Nossas Habilidades</h2>
+                <p>Dominamos as principais tecnologias e ferramentas do mercado para oferecer soluções digitais de alta qualidade.</p>
+            </div>
+            <div class="skills-container">
+                <!-- Skills content would go here -->
+                <!-- Copied from original code -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Depoimentos</h2>
+                <p>Veja o que nossos clientes têm a dizer sobre nossas soluções digitais e como ajudamos a transformar seus negócios.</p>
+            </div>
+            <div class="testimonials-slider">
+                <div class="testimonials-track">
+                    <!-- Testimonial slides would go here -->
+                    <!-- Copied from original code -->
+                </div>
+                <div class="testimonial-dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+      <!-- Seção Fale Conosco Elaborada -->
+      <section id="contact" style="padding: 100px 20px; position: relative;">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <h2 style="text-align: center; font-size: 2.5rem; margin-bottom: 50px;">Fale Conosco</h2>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 50px;">
+                <!-- Formulário -->
+                <div style="background: rgba(255,255,255,0.1); backdrop-filter: blur(10px); padding: 40px; border-radius: 15px; border: 1px solid rgba(255,255,255,0.2);">
+                    <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Envie uma Mensagem</h3>
+                    <form id="contactForm" style="display: grid; gap: 20px;">
+                        <div>
+                            <label style="display: block; margin-bottom: 8px;">Nome Completo</label>
+                            <input type="text" style="width: 100%; padding: 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); border-radius: 8px; color: white;">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px;">Email</label>
+                            <input type="email" style="width: 100%; padding: 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); border-radius: 8px; color: white;">
+                        </div>
+                        <div>
+                            <label style="display: block; margin-bottom: 8px;">Mensagem</label>
+                            <textarea style="width: 100%; min-height: 150px; padding: 12px; background: rgba(255,255,255,0.1); border: 1px solid rgba(255,255,255,0.3); border-radius: 8px; color: white;"></textarea>
+                        </div>
+                        <button type="submit" style="background: linear-gradient(135deg, #3a86ff, #6c63ff); color: white; border: none; padding: 15px; border-radius: 8px; font-weight: bold; cursor: pointer; transition: all 0.3s;">Enviar Mensagem</button>
+                    </form>
+                </div>
+                
+                <!-- Informações de Contato -->
+                <div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 20px;">Nossos Contatos</h3>
+                    <div style="display: grid; gap: 25px;">
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <div style="width: 50px; height: 50px; background: rgba(58, 134, 255, 0.2); border-radius: 50%; display: grid; place-items: center;">📱</div>
+                            <div>
+                                <h4 style="margin: 0; font-size: 1.2rem;">Telefone</h4>
+                                <p style="margin: 5px 0 0; opacity: 0.8;">+55 (11) 98765-4321</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <div style="width: 50px; height: 50px; background: rgba(58, 134, 255, 0.2); border-radius: 50%; display: grid; place-items: center;">✉️</div>
+                            <div>
+                                <h4 style="margin: 0; font-size: 1.2rem;">Email</h4>
+                                <p style="margin: 5px 0 0; opacity: 0.8;">contato@watershader.com</p>
+                            </div>
+                        </div>
+                        <div style="display: flex; align-items: center; gap: 15px;">
+                            <div style="width: 50px; height: 50px; background: rgba(58, 134, 255, 0.2); border-radius: 50%; display: grid; place-items: center;">📍</div>
+                            <div>
+                                <h4 style="margin: 0; font-size: 1.2rem;">Endereço</h4>
+                                <p style="margin: 5px 0 0; opacity: 0.8;">Av. Paulista, 1000 - São Paulo, SP</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Redes Sociais -->
+                    <div style="margin-top: 40px;">
+                        <h4 style="font-size: 1.2rem; margin-bottom: 15px;">Redes Sociais</h4>
+                        <div style="display: flex; gap: 15px;">
+                            <a href="#" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: grid; place-items: center; transition: all 0.3s;">📘</a>
+                            <a href="#" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: grid; place-items: center; transition: all 0.3s;">📸</a>
+                            <a href="#" style="width: 40px; height: 40px; background: rgba(255,255,255,0.1); border-radius: 50%; display: grid; place-items: center; transition: all 0.3s;">🔗</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Footer Elaborado -->
+    <footer style="background: rgba(0, 10, 20, 0.8); padding: 60px 20px 30px; backdrop-filter: blur(5px);">
+        <div style="max-width: 1200px; margin: 0 auto;">
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 40px; margin-bottom: 50px;">
+                <!-- Coluna 1 -->
+                <div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 20px; position: relative; padding-bottom: 10px;">
+                        Water Shader
+                        <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 2px; background: linear-gradient(135deg, #3a86ff, #6c63ff);"></span>
+                    </h3>
+                    <p style="color: rgba(255,255,255,0.7); line-height: 1.7;">Tecnologia avançada de shaders para criar experiências web imersivas e interativas.</p>
+                </div>
+                
+                <!-- Coluna 2 -->
+                <div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 20px; position: relative; padding-bottom: 10px;">
+                        Links Rápidos
+                        <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 2px; background: linear-gradient(135deg, #3a86ff, #6c63ff);"></span>
+                    </h3>
+                    <ul style="list-style: none; padding: 0; margin: 0; display: grid; gap: 12px;">
+                        <li><a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s;">Início</a></li>
+                        <li><a href="#contact" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s;">Contato</a></li>
+                        <li><a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s;">Portfólio</a></li>
+                        <li><a href="#" style="color: rgba(255,255,255,0.7); text-decoration: none; transition: all 0.3s;">Blog</a></li>
+                    </ul>
+                </div>
+                
+                <!-- Coluna 3 -->
+                <div>
+                    <h3 style="font-size: 1.3rem; margin-bottom: 20px; position: relative; padding-bottom: 10px;">
+                        Newsletter
+                        <span style="position: absolute; bottom: 0; left: 0; width: 40px; height: 2px; background: linear-gradient(135deg, #3a86ff, #6c63ff);"></span>
+                    </h3>
+                    <p style="color: rgba(255,255,255,0.7); margin-bottom: 20px;">Assine para receber atualizações sobre nossos projetos.</p>
+                    <form style="display: flex;">
+                        <input type="email" placeholder="Seu email" style="flex: 1; padding: 12px; border: none; border-radius: 8px 0 0 8px; background: rgba(255,255,255,0.1); color: white;">
+                        <button type="submit" style="background: linear-gradient(135deg, #3a86ff, #6c63ff); color: white; border: none; padding: 0 20px; border-radius: 0 8px 8px 0; cursor: pointer;">→</button>
+                    </form>
+                </div>
+            </div>
+            
+            <div style="text-align: center; padding-top: 30px; border-top: 1px solid rgba(255,255,255,0.1); color: rgba(255,255,255,0.5); font-size: 0.9rem;">
+                <p>© 2023 Water Shader Project. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>  
+     <!-- Scripts -->
+    <script>
+        // Interação com formulário
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            alert('Mensagem enviada com sucesso! Entraremos em contato em breve.');
+            this.reset();
+        });
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="background.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
